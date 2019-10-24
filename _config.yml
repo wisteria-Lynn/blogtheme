@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------
 #   Site Information And Theme Configuration Settings
-#   language: zh-CN
+language: zh-CN
 # ---------------------------------------------------------------
 
 ## menu
@@ -8,21 +8,18 @@ menu:
 - page: home
   url: /
   icon:
-- page: 前端
-  url: /categories/前端/
+- page: 小说
+  url: https://wisteria-lynn.github.io/dist/index.html#/novel
   icon:
-- page: 后端
-  url: /categories/后端/
-  icon:
-- page: 工具
-  url: /categories/工具/
+- page: 关于
+  url: /public/about
   icon:
 - page: 时间轴
-  url: /archives/
+  url: /public/archives
   icon:
 
 ## favicon
-favicon: /favicon.ico
+favicon: /public/favicon.ico
 
 ## Feed
 rss: /atom.xml
@@ -58,20 +55,20 @@ jsonContent:
 
 ## 网站公告设置
 notification: |-
-            <p>
-                主题下载：<a href="https://github.com/shenliyang/hexo-theme-snippet" title="fork me" target="_blank">Snippet主题</a> <br/>
-                主题使用：<a href="https://github.com/shenliyang/hexo-theme-snippet/blob/master/README.md#常见问题" title="" target="_blank">常见使用问题</a> <br/>
-                支持主题：<a href="https://github.com/shenliyang/hexo-theme-snippet/stargazers">Star一下</a>
-            </p>
+#            <p>
+#                主题下载：<a href="https://github.com/shenliyang/hexo-theme-snippet" title="fork me" target="_blank">Snippet主题</a> <br/>
+#                主题使用：<a href="https://github.com/shenliyang/hexo-theme-snippet/blob/master/README.md#常见问题" title="" target="_blank">常见使用问题</a> <br/>
+#                支持主题：<a href="https://github.com/shenliyang/hexo-theme-snippet/stargazers">Star一下</a>
+#            </p>
 
 ## 社交设置
 social:
  - name: Github
    icon: git
-   href: //github.com/shenliyang
+   href: https://github.com/wisteria-Lynn/
  - name: 邮箱
    icon: envelope-o
-   href: mailto:snippet@91h5.cc
+   href:
  - name: 联系QQ
    icon: qq
    href: /
@@ -111,13 +108,13 @@ tagcloud:
 
 ## 友链设置
 links:
-  - Hexo官网: https://hexo.io/zh-cn/
+  - 流莹离: https://wisteria-lynn.github.io/dist/index.html#/novel
 
 
 # 主题自定义个性化配置
 
 ## 网站宣传语
-branding:
+branding: 流莹离|拼命往前，仗剑天涯
 
 ## 设置banner背景图片
 banner:
@@ -155,7 +152,7 @@ declaration:
   enable: true
   title: '转载声明'
   tip: |-
-      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">流莹离</a>
 
 ## 文章打赏
 reward:
@@ -222,8 +219,8 @@ uyan:
 
 ## 网站访客统计
 visit_counter:
-   site: false
-   page: false
+   site: true
+   page: true
 
 ## 网站访问统计分析
 
@@ -247,6 +244,6 @@ baidu_push: false
 
 #网站主题配置
 since: 2017
-beian: 
+beian: 流莹离
 robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
 version: 1.2.3
