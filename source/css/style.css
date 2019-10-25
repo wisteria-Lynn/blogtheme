@@ -46,8 +46,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
-  color: #303030;
+  font-weight: 600;
+  color: #404040;
 }
 h1 {
   font-size: 2em;
@@ -483,7 +483,7 @@ pre {
 }
 .post .post-body p {
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1.8;
   word-break: break-all;
 }
 .post .post-body p img {
@@ -521,6 +521,7 @@ pre {
 ====================================================*/
 .post-content {
   font: 400 16px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #333;
 }
 .post-content h1 {
@@ -565,6 +566,7 @@ pre {
 }
 .post-content p {
   font-size: 15px;
+  margin-bottom: 20px;
 }
 .post-content a {
   word-wrap: break-word;
@@ -638,7 +640,7 @@ pre {
   color: #666666;
 }
 .post-content ul {
-  margin: 0 0 24px 6px;
+  margin: 20px 0 20px 6px;
   padding-left: 16px;
   list-style-type: square;
 }
